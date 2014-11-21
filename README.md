@@ -3,7 +3,7 @@ Zimbra Signature Generator
 
 
  Signature Generator for Zimbra 8. 
- Customized Signature creation with Active Directory user information
+ Customized Signature Generation with Active Directory/LDAP data population
 
 ----------
 
@@ -19,7 +19,7 @@ It uses standard ldap queries
 > **Steps:**
 
 > - Read the  configuration from settings files
-	> config.properties file contains basic LDAP connection settings, the HTML template and the list of users to create the signature. 
+	> config.properties file contains basic LDAP connection settings, the HTML template and the list of users to           create the signature. 
 	Sample user definition file
 > 
 > > OU=Dep1,OU=Area1,OU=Usuaris,DC=domain,DC=local  	OU=Dep2,OU=Area1,OU=Usuaris,DC=domain,DC=local
