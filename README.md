@@ -37,10 +37,11 @@ It uses standard ldap queries
 >   - Connect to LDAP server to retreive the attributes value
 >   - Map the data using the given template
 >   - Set the generated HTML signature sor each user in the OU list
-	>   The key CLI Zimbra command to do this:
+	
+	  The key CLI Zimbra command to do this:
 		
 
-    Remove the default signature from user: zmprov dsig $email_account $signature_name
+                Remove the default signature from user: zmprov dsig $email_account $signature_name
     		Create default signature:  zmprov csig $email_account $signature_name zimbraPrefMailSignatureHTML \"$signature\"
     		Setting signature as default for new and reply mails
     		zmprov modifyIdentity $email_account DEFAULT zimbraPrefDefaultSignatureId \"$signature_id\" zimbraPrefForwardReplySignatureId \"$signature_id\"";
