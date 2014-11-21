@@ -1,0 +1,3 @@
+OU=Dep1,OU=Area1,OU=Usuaris,DC=domain,DC=local
+OU=Dep2,OU=Area1,OU=Usuaris,DC=domain,DC=local
+OU=Dep3,OU=Area2,OU=Usuaris,DC=domain,DC=local
